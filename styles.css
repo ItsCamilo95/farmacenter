@@ -1,7 +1,22 @@
 :root{
     --bs-primary: black;
 }
-.active{
+.green-active{
     color: rgb(3, 167, 3) !important;
     font-weight: bold;
 }
+
+.nav-options li a{
+    border: 2px solid transparent;
+}
+
+.nav-options li a.green-active{
+    border-bottom: 2px solid rgb(7, 182, 7);
+}
+
+.nav-options li a:hover{
+    border-bottom: 2px solid rgb(8, 197, 8);
+}
+
+
+
