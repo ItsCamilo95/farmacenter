@@ -1,18 +1,16 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="/img/icono.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <title>Salud Vital</title>
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="/img/logo.png" alt="logo" width="230">
@@ -30,10 +28,10 @@
                       Categorías
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Alimentos</a></li>
+                        <li><a class="dropdown-item" href="#">Belleza</a></li>
+                        <li><a class="dropdown-item" href="#">Higiene</a></li>
+                        <li><a class="dropdown-item" href="#">Medicamentos</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -47,6 +45,7 @@
           </div>
         </div>
       </nav>
+      <!-- carousel -->
       <div id="carousel-ofertas" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -77,7 +76,99 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+      <!-- offer cards -->
+      <div class="container mt-3 text-center d-block d-md-none">
+        <figure class="d-inline">
+          <img src="img/free.png" width="28" alt="">
+        </figure>
+        <h2 class="d-inline">Ofertas</h2>
+        <p>¡Conoce nuestros descuentos en tus productos de preferencia!</p>
+      </div>
+      <div class="row m-0 mt-3 p-5">
+        <div class="col-6">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/eficaz.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card mb-3">
+            <img class="card-img-top" src="img/eficaz.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container p-0 mt-3 d-none d-sm-none d-md-block">
+        <figure class="d-inline">
+          <img src="img/free.png" width="28" alt="">
+        </figure>
+        <h2 class="d-inline">Ofertas</h2>
+        <p>¡Conoce nuestros descuentos en tus productos de preferencia!</p>
+      </div>
+      <div class="container text-center">
+        <div class="row p-2 justify-content-center">
+          <div class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card bg-body-secondary" >
+            <picture>
+              <source media="(min-width:1300px)" srcset="/img/gilette.jpg" />
+              <img class="card-img-top" src="img/gilette2.jpg" alt="Card image cap">
+            </picture>
+            <div class="card-body">
+              <h6 class="card-title text-start ms-2">$000.00</h6>
+              <p class="text-secondary text-center">Gillette Prestobarba Ultragrip 2 Máquina para Afeitar Desechable - Blíster de 1 unidad</p>
+              <button class="btn btn-success">¡Lo quiero! <img src="img/whats.png" width="28" alt=""></button>
+            </div>
+          </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card bg-body-secondary" >
+            <picture>
+              <source media="(min-width:1300px)" srcset="/img/gilette.jpg" />
+              <img class="card-img-top" src="img/gilette2.jpg" alt="Card image cap">
+            </picture>
+            <div class="card-body">
+              <h6 class="card-title text-start ms-2">$000.00</h6>
+              <p class="text-secondary text-center">Gillette Prestobarba Ultragrip 2 Máquina para Afeitar Desechable - Blíster de 1 unidad</p>
+              <button class="btn btn-success">¡Lo quiero! <img src="img/whats.png" width="28" alt=""></button>
+            </div>
+          </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card bg-body-secondary" >
+            <picture>
+              <source media="(min-width:1300px)" srcset="/img/gilette.jpg" />
+              <img class="card-img-top" src="img/gilette2.jpg" alt="Card image cap">
+            </picture>
+            <div class="card-body">
+              <h6 class="card-title text-start ms-2">$000.00</h6>
+              <p class="text-secondary text-center">Gillette Prestobarba Ultragrip 2 Máquina para Afeitar Desechable - Blíster de 1 unidad</p>
+              <button class="btn btn-success">¡Lo quiero! <img src="img/whats.png" width="28" alt=""></button>
+            </div>
+          </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card bg-body-secondary" >
+            <picture>
+              <source media="(min-width:1300px)" srcset="/img/gilette.jpg" />
+              <img class="card-img-top" src="img/gilette2.jpg" alt="Card image cap">
+            </picture>
+            <div class="card-body">
+              <h6 class="card-title text-start ms-2">$000.00</h6>
+              <p class="text-secondary text-center ">Gillette Prestobarba Ultragrip 2 Máquina para Afeitar Desechable - Blíster de 1 unidad</p>
+              <button class="btn btn-success">¡Lo quiero! <img src="img/whats.png" width="28" alt=""></button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
