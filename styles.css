@@ -17,6 +17,8 @@
 .nav-options li a:hover{
     border-bottom: 2px solid rgb(8, 197, 8);
 }
-
+.cards-wrapper{
+    display: flex !important
+}
 
 
